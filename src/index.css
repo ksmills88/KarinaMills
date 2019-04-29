@@ -12,3 +12,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.App {
+  background: url(./symmetry.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
