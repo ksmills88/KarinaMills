@@ -21,9 +21,9 @@ code {
 }
 
 .bg-light {
-  background: radial-gradient(circle,  #e26f93 0%, #f15887 100%);
-  opacity: 0.5;
+  background: radial-gradient(circle,  #1572B6 0%, #6AE9F7 100%);
+  opacity: 0.8;
 }
-.container-fluid {
+.tagline-container {
   width: 150px;
 }

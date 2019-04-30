@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Jumbo from '../components/Jumbotron';
 import MyNav from '../components/Nav';
-import MyBackgroundImage from '../images/pattern.jpg'
+import MyBackgroundImage from '../images/keyboard.jpg'
 
 import { DiCss3, 
     DiHtml5, 
@@ -14,6 +14,7 @@ import { DiCss3,
     DiMysql,
     DiNodejsSmall,
 } from "react-icons/di";
+import Images from '../components/Images';
 
 export default class Home extends Component {
 
@@ -21,7 +22,9 @@ export default class Home extends Component {
         bg: {
             backgroundImage: `url(${MyBackgroundImage})`,
             backgroundSize: 'cover' ,
-            minHeight: 1000           
+            // marginLeft: -200,
+            // marginRight: -200,
+            minHeight: 1200           
         }
     }
     render() {
@@ -30,18 +33,19 @@ export default class Home extends Component {
             {/* add jumbotron or other here */}
             <MyNav />
             <Jumbo />
-            <div >
-                <DiReact style={{fontSize: 50, color: "#80D8F7"}}/>
+         
+                <h3>Projects</h3>
+                {/* <DiReact style={{fontSize: 50, color: "#80D8F7"}}/>
                 <DiHtml5 style={{fontSize: 50, color: "#E44D26"}}/>
                 <DiCss3 style={{fontSize: 50, color: "#1572B6"}}/>
                 <DiJavascript style={{fontSize: 50, color: "#F0DB4F"}}/>
                 <DiNodejsSmall style={{fontSize: 50, color: "#83CD29"}}/>
                 <DiMongodb style={{fontSize: 50, color: "#4FAA41"}}/>
-                <DiMysql style={{fontSize: 50, color: "#00618A"}}/>
+                <DiMysql style={{fontSize: 50, color: "#00618A"}}/> */}
 
                 {/* <DiAppstore style={{fontSize: 50, color: "black"}}/>
                 <DiAndroid style={{fontSize: 50, color: "black"}}/> */}
-            </div>
+            <Images />
             </div>
         );
     }
