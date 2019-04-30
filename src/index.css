@@ -12,7 +12,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.App {
-  background: url(./symmetry.jpg) no-repeat center center fixed;
-  background-size: cover;
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.bg-light {
+  background: radial-gradient(circle,  #e26f93 0%, #f15887 100%);
+  opacity: 0.5;
+}
+.container-fluid {
+  width: 150px;
 }
