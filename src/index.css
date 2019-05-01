@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  color: #3372B1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -21,9 +22,13 @@ code {
 }
 
 .bg-light {
-  background: radial-gradient(circle,  #1572B6 0%, #6AE9F7 100%);
+  background: radial-gradient(circle,  #1572B6 0%, #31dfb3 100%);
   opacity: 0.8;
 }
 .tagline-container {
   width: 150px;
+}
+.hover-uppercase:hover {
+  text-transform: uppercase;
+  color: white;
 }

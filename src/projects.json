@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Memory Game",
         "description": "You must have a good memory to win this 'The Office' themed Memory Game! This app demonstrates basic logic and state management using React.",
-        "tech": ["React"],
+        "tech": ["react", "javascript"],
         "image": "https://media.giphy.com/media/7lC3lBaeK0Jhe/giphy.gif",
         "deployedURL": "https://ksmills88.github.io/MemoryGame/",
         "codebase": "https://github.com/ksmills88/MemoryGame"
@@ -12,7 +12,7 @@
         "id": 2,
         "name": "OpenSky LAANC",
         "description": "This platform, built for Aeronyde Corporation, allows commercial drone/UAV users to safely integrate into airspace, and is approved by the FAA. My role: Front End Developer",
-        "tech": ["React, Node, Express, MySQL"],
+        "tech": ["react", "node", "express", "mysql"],
         "image": "https://karinamills194387674.files.wordpress.com/2019/04/drone.gif",
         "deployedURL": "https://aeronyde.com/opensky-laanc/",
         "codebase": null
@@ -21,8 +21,8 @@
         "id": 3,
         "name": "Hospice of Southern Illinois Mobile Application",
         "description": "I rebuilt and redesigned the Hospice of Southern Illinois mobile application using React Native with Expo. The app is currently deployed on Google Play and the Apple App Store.",
-        "tech": ["React Native, Expo, Android Studio"],
-        "image": "./images/hospice.png",
+        "tech": ["reactnative", "expo", "android", "appstore"],
+        "image": "https://media.giphy.com/media/MYyaxUaLlYwEKMhEzM/giphy.gif",
         "deployedURL": "https://play.google.com/store/apps/details?id=com.osi.hospice&hl=en_US",
         "codebase": null
     }

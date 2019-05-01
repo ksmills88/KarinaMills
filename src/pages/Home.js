@@ -24,7 +24,11 @@ export default class Home extends Component {
             backgroundSize: 'cover' ,
             // marginLeft: -200,
             // marginRight: -200,
-            minHeight: 1200           
+            minHeight: 1200,
+        },
+        imgArea: {
+            paddingLeft:30,
+            paddingRight:30           
         }
     }
     render() {
@@ -34,7 +38,7 @@ export default class Home extends Component {
             <MyNav />
             <Jumbo />
          
-                <h3>Projects</h3>
+                
                 {/* <DiReact style={{fontSize: 50, color: "#80D8F7"}}/>
                 <DiHtml5 style={{fontSize: 50, color: "#E44D26"}}/>
                 <DiCss3 style={{fontSize: 50, color: "#1572B6"}}/>
@@ -45,7 +49,9 @@ export default class Home extends Component {
 
                 {/* <DiAppstore style={{fontSize: 50, color: "black"}}/>
                 <DiAndroid style={{fontSize: 50, color: "black"}}/> */}
-            <Images />
+                <div style={this.styles.imgArea}>
+                    <Images />
+                </div>
             </div>
         );
     }

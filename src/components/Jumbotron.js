@@ -54,9 +54,11 @@ export default class Jumbo extends Component {
             <div>
             <Jumbotron fluid style={this.styles.jt}>
               <Container fluid >
+              <h1 style={{fontSize: 60}} className="hover-uppercase">karina mills</h1>
+              <h3>&lt; WebDeveloper /&gt;</h3>
               {/* <h3 className="lead" style={this.styles.boxAround}>I build cool things in tech. </h3> */}
               <Row>
-                <Col style={this.styles.colBox}>
+                {/* <Col style={this.styles.colBox}>
                     <div style={this.styles.boxAround}>
                         <h3 className="lead" style={this.styles.tag1}>be creative.</h3>
                         <h3 className="lead" style={this.styles.tag2}>be kind.</h3>
@@ -70,21 +72,21 @@ export default class Jumbo extends Component {
                             <span style={{color: 'pink'}}>n</span></strong>.
                         </h3>
                     </div>
-                </Col>
+                </Col> */}
                 <Col style={this.styles.colBox}>
                 <Row style={{display: 'flex',
-            flexDirection: 'row',
-            justifyContent: 'center',
-            alignItems: 'center',}}>
-                <DiReact style={{fontSize: 50, color: "#80D8F7"}}/>
-                <DiHtml5 style={{fontSize: 50, color: "#E44D26"}}/>
-                <DiCss3 style={{fontSize: 50, color: "#1572B6"}}/>
-                <DiJavascript style={{fontSize: 50, color: "#F0DB4F"}}/>
-                <DiNodejsSmall style={{fontSize: 50, color: "#83CD29"}}/>
-                <DiMongodb style={{fontSize: 50, color: "#4FAA41"}}/>
-                <DiMysql style={{fontSize: 50, color: "#00618A"}}/>
-                </Row>
-                </Col>
+                flexDirection: 'row',
+                justifyContent: 'center',
+                alignItems: 'center',}}>
+                    <DiReact style={{fontSize: 50, color: "#80D8F7"}}/>
+                    <DiHtml5 style={{fontSize: 50, color: "#E44D26"}}/>
+                    <DiCss3 style={{fontSize: 50, color: "#1572B6"}}/>
+                    <DiJavascript style={{fontSize: 50, color: "#F0DB4F"}}/>
+                    <DiNodejsSmall style={{fontSize: 50, color: "#83CD29"}}/>
+                    <DiMongodb style={{fontSize: 50, color: "#4FAA41"}}/>
+                    <DiMysql style={{fontSize: 50, color: "#00618A"}}/>
+                    </Row>
+                    </Col>
                 </Row>
               </Container>
             </Jumbotron>
