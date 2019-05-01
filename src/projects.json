@@ -4,7 +4,7 @@
         "name": "Memory Game",
         "description": "You must have a good memory to win this 'The Office' themed Memory Game! This app demonstrates basic logic and state management using React.",
         "tech": ["React"],
-        "image": "./images/keyboard.jpg",
+        "image": "https://media.giphy.com/media/7lC3lBaeK0Jhe/giphy.gif",
         "deployedURL": "https://ksmills88.github.io/MemoryGame/",
         "codebase": "https://github.com/ksmills88/MemoryGame"
     },

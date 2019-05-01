@@ -15,9 +15,9 @@ const Images = (props) => {
           <CardTitle>{project.name}</CardTitle>
           {/* <CardSubtitle>Card subtitle</CardSubtitle> */}
           <CardText>{project.description}</CardText>
-          <Button>GO</Button>
+          <a href={project.deployedURL}><Button>GO</Button></a>
           {project.codebase ? 
-            <Button>CODE</Button> : null
+            <a href={project.codebase}><Button>CODE</Button></a> : null
         }
         </CardBody>
       </Card>
