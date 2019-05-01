@@ -73,7 +73,7 @@ export default class Jumbo extends Component {
                         </h3>
                     </div>
                 </Col> */}
-                <Col style={this.styles.colBox}>
+                {/* <Col style={this.styles.colBox}>
                 <Row style={{display: 'flex',
                 flexDirection: 'row',
                 justifyContent: 'center',
@@ -86,7 +86,7 @@ export default class Jumbo extends Component {
                     <DiMongodb style={{fontSize: 50, color: "#4FAA41"}}/>
                     <DiMysql style={{fontSize: 50, color: "#00618A"}}/>
                     </Row>
-                    </Col>
+                    </Col> */}
                 </Row>
               </Container>
             </Jumbotron>

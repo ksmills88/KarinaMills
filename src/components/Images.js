@@ -14,7 +14,6 @@ import { DiCss3,
     DiMysql,
     DiNodejsSmall,
     DiApple,
-    DiJsBadge,
 } from "react-icons/di";
 
 class Images extends Component {
@@ -26,7 +25,7 @@ class Images extends Component {
             {tech.includes('react') ? 
             <DiReact style={{fontSize: 50, color: "#80D8F7"}}/> : null}
             {tech.includes('javascript') ? 
-            <DiJsBadge style={{fontSize: 50, color: "#F0DB4F"}}/> : null}
+            <DiJavascript style={{fontSize: 50, color: "#F0DB4F"}}/> : null}
             {tech.includes('html') ? 
             <DiHtml5 style={{fontSize: 50, color: "#E44D26"}}/> : null}
             {tech.includes('css') ? 
@@ -58,7 +57,7 @@ class Images extends Component {
             <CardDeck>
                 {data.map(project=>(
                     
-            <Card style={{minWidth:300, marginTop:30, background: 'rgba(132, 219, 190, 0.4)'}}>
+            <Card style={{minWidth:300, marginTop:30, background: 'white'}}>
 
                 <CardBody>
                 <CardTitle style={{fontSize: 30}}>{project.name}</CardTitle>

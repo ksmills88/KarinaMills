@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Memory Game",
         "description": "You must have a good memory to win this 'The Office' themed Memory Game! This app demonstrates basic logic and state management using React.",
-        "tech": ["react", "javascript"],
+        "tech": ["react", "javascript", "html", "css"],
         "image": "https://media.giphy.com/media/7lC3lBaeK0Jhe/giphy.gif",
         "deployedURL": "https://ksmills88.github.io/MemoryGame/",
         "codebase": "https://github.com/ksmills88/MemoryGame"
@@ -21,7 +21,7 @@
         "id": 3,
         "name": "Hospice of Southern Illinois Mobile Application",
         "description": "I rebuilt and redesigned the Hospice of Southern Illinois mobile application using React Native with Expo. The app is currently deployed on Google Play and the Apple App Store.",
-        "tech": ["reactnative", "expo", "android", "appstore"],
+        "tech": ["reactnative", "expo", "android", "appstore", "javascript", "css"],
         "image": "https://media.giphy.com/media/MYyaxUaLlYwEKMhEzM/giphy.gif",
         "deployedURL": "https://play.google.com/store/apps/details?id=com.osi.hospice&hl=en_US",
         "codebase": null
