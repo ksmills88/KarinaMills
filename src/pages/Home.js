@@ -24,7 +24,7 @@ export default class Home extends Component {
             backgroundSize: 'cover' ,
             // marginLeft: -200,
             // marginRight: -200,
-            minHeight: 1200,
+            minHeight: 1500,
         },
         imgArea: {
             paddingLeft:30,
