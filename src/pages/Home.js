@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Jumbo from '../components/Jumbotron';
 import MyNav from '../components/Nav';
-import MyBackgroundImage from '../images/keyboard.jpg'
+import MyBackgroundImage from '../images/sunglasses.jpg'
 
 import { DiCss3, 
     DiHtml5, 
@@ -35,7 +35,7 @@ export default class Home extends Component {
         return (
             <div className="Home" style={this.styles.bg} >
             {/* add jumbotron or other here */}
-            <MyNav />
+            {/* <MyNav /> */}
             <Jumbo />
          
                 

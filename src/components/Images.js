@@ -15,8 +15,27 @@ import { DiCss3,
     DiNodejsSmall,
     DiApple,
 } from "react-icons/di";
+import TechModal from './TechModal';
 
 class Images extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          modal: false,
+          currentProject: {}
+        };
+    
+        this.toggle = this.toggle.bind(this);
+      }
+      handleTechClick(data) {
+        this.setState({currentProject: data})
+        this.toggle()
+      }
+      toggle() {
+        this.setState(prevState => ({
+          modal: !prevState.modal
+        }));
+      }
 
     displayIcons(tech) {
         //project.tech
@@ -57,24 +76,26 @@ class Images extends Component {
             <CardDeck>
                 {data.map(project=>(
                     
-            <Card style={{minWidth:300, marginTop:30, background: 'white'}}>
+                    <Card style={{minWidth:300, marginTop:30, background: 'linear-gradient(rgb(0,0,0, 0.85), rgb(51,120,127, 0.6))'}}>
+                {/* <Card style={{minWidth:300, marginTop:30, background: 'radial-gradient(circle, rgb(255, 255, 255, 0.4) 0%, rgb(0, 0, 255, 0.4) 100%)', borderColor: "#71F6DB", borderWidth: 5}}> */}
 
                 <CardBody>
-                <CardTitle style={{fontSize: 30}}>{project.name}</CardTitle>
+                <CardTitle style={{fontSize: 30, color: 'white'}}>{project.name}</CardTitle>
                 <CardImg top src={project.image} alt="Card image cap" 
                     style={{width: '100%',
-                    maxHeight: 300,
+                    height: 300,
                     objectFit: 'contain'}} />
-                    <div>{this.displayIcons(project.tech)}</div>
-                <CardText>{project.description}</CardText>
-                <a href={project.deployedURL}><Button style={{marginLeft:5, marginRight:5}}>LIVE</Button></a>
+                    <div style={{marginTop: 20, marginBottom: 20}}>{this.displayIcons(project.tech)}</div>
+                    <Button style={{backgroundColor: "#E23C61"}}onClick={()=>this.handleTechClick(project)}>more info</Button>
+                {/* <CardText>{project.description}</CardText> */}
+                <a href={project.deployedURL}><Button style={{marginLeft:5, marginRight:5, backgroundColor: "#2A6771"}}>deployed</Button></a>
                 {project.codebase ? 
-                    <a href={project.code}><Button>CODE</Button></a> : null
+                    <a href={project.codebase}><Button style={{backgroundColor: "#ED6F2E"}}>github</Button></a> : null
                 }
                 </CardBody>
             </Card>
                 ))}
-
+                
             {/* <Card>
                 <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
                 <CardBody>
@@ -102,6 +123,8 @@ class Images extends Component {
                 <Button>Button</Button>
                 </CardBody>
             </Card> */}
+            <TechModal isOpen={this.state.modal} toggle={this.toggle} project={this.state.currentProject}/>
+
             </CardDeck>
         );
     }

@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "name": "Hospice of Southern Illinois Mobile Application",
+        "name": "HOSI Mobile App",
         "description": "I rebuilt and redesigned the Hospice of Southern Illinois mobile application using React Native with Expo. The app is currently deployed on Google Play and the Apple App Store.",
         "tech": ["reactnative", "expo", "android", "appstore", "javascript", "css"],
         "image": "https://media.giphy.com/media/MYyaxUaLlYwEKMhEzM/giphy.gif",

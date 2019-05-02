@@ -18,7 +18,9 @@ import { DiCss3,
 export default class Jumbo extends Component {
     styles={
         jt: {
-            backgroundColor: 'transparent'
+            // backgroundColor: 'rgb(114,247,217,0.4)',
+            background: 'radial-gradient(circle, rgb(0, 0, 0, 0.9) 0%, rgb(226,60,97, 0.5) 100%)',
+            color: 'white'
             // backgroundColor: 'white', 
             // opacity: .5
         },
