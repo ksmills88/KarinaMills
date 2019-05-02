@@ -1,7 +1,7 @@
 /* eslint react/no-multi-comp: 0, react/prop-types: 0 */
 
 import React from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter, CardImg } from 'reactstrap';
 
 class TechModal extends React.Component {
   displayTechList(techArray) {
@@ -18,6 +18,10 @@ console.log(techArray)
         {/* <Button color="danger" onClick={this.toggle}>{this.props.buttonLabel}</Button> */}
         <Modal isOpen={this.props.isOpen} toggle={this.props.toggle} className={this.props.className}>
           <ModalHeader toggle={this.props.toggle}>{project.name}</ModalHeader>
+          <CardImg top src={project.image} alt="Card image cap" 
+                    style={{width: '100%',
+                    height: 300,
+                    objectFit: 'contain'}} />
           <ModalBody>
               {project.description}
               {this.displayTechList(technology)}
@@ -29,8 +33,8 @@ console.log(techArray)
           </ModalBody>
           <ModalFooter>
             {project.codebase ? 
-            <a href={project.codebase}><Button color="primary">View Code on GitHub</Button></a>: null}
-            <a href={project.deployedURL}><Button color="primary">See the Live App</Button></a>{' '}
+            <a href={project.codebase} target="_blank" rel="noopener noreferrer"><Button color="primary">View Code on GitHub</Button></a>: null}
+            <a href={project.deployedURL} target="_blank" rel="noopener noreferrer"><Button color="primary">See the Live App</Button></a>{' '}
             <Button color="primary" onClick={this.props.toggle}>Close</Button>
           </ModalFooter>
         </Modal>

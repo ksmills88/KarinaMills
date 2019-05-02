@@ -1,12 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+  padding-bottom: 128px;
   /* color: #3372B1; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 code {
@@ -31,4 +33,21 @@ code {
 .hover-uppercase:hover {
   text-transform: uppercase;
   color: white;
+}
+.image-card {
+  background: linear-gradient(rgb(0,0,0, 0.6), rgb(51,120,127, 0.6));
+}
+.image-card:hover {
+  background: linear-gradient(rgb(0,0,0, 0.6), rgba(209,75,99, 0.9));
+  transform: scale(1.1)
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 128px;
+  width: 100%;
+  margin: 0 auto;
+  background: black;
+  color: white;
+  padding: 1rem 2rem;
 }

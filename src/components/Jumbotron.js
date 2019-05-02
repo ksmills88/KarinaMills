@@ -19,7 +19,8 @@ export default class Jumbo extends Component {
     styles={
         jt: {
             // backgroundColor: 'rgb(114,247,217,0.4)',
-            background: 'radial-gradient(circle, rgb(0, 0, 0, 0.9) 0%, rgb(226,60,97, 0.5) 100%)',
+            // background: 'radial-gradient(circle, rgb(0, 0, 0, 0.7) 0%, rgb(226,60,97, 0.5) 100%)',
+            background: 'linear-gradient(rgb(51,120,127, 0.6), rgb(0,0,0, 0.8))',
             color: 'white'
             // backgroundColor: 'white', 
             // opacity: .5
@@ -56,7 +57,7 @@ export default class Jumbo extends Component {
             <div>
             <Jumbotron fluid style={this.styles.jt}>
               <Container fluid >
-              <h1 style={{fontSize: 60}} className="hover-uppercase">karina mills</h1>
+              <h1 style={{fontSize: 60}} className="hover-uppercase">karina starling mills</h1>
               <h3>&lt; WebDeveloper /&gt;</h3>
               {/* <h3 className="lead" style={this.styles.boxAround}>I build cool things in tech. </h3> */}
               <Row>

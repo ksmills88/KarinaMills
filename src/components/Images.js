@@ -54,7 +54,7 @@ class Images extends Component {
             {tech.includes('mongo') ? 
             <DiMongodb style={{fontSize: 50, color: "#4FAA41"}}/> : null}
             {tech.includes('mysql') ? 
-            <DiMysql style={{fontSize: 50, color: "#00618A"}}/> : null}
+            <DiMysql style={{fontSize: 50, color: "white"}}/> : null}
             {tech.includes('android') ? 
             <DiAndroid style={{fontSize: 50, color: "#a4c639"}}/> : null}
             {tech.includes('appstore') ? 
@@ -76,21 +76,21 @@ class Images extends Component {
             <CardDeck>
                 {data.map(project=>(
                     
-                    <Card style={{minWidth:300, marginTop:30, background: 'linear-gradient(rgb(0,0,0, 0.85), rgb(51,120,127, 0.6))'}}>
+                    <Card style={{minWidth:300, marginTop:30}} className="image-card">
                 {/* <Card style={{minWidth:300, marginTop:30, background: 'radial-gradient(circle, rgb(255, 255, 255, 0.4) 0%, rgb(0, 0, 255, 0.4) 100%)', borderColor: "#71F6DB", borderWidth: 5}}> */}
 
                 <CardBody>
                 <CardTitle style={{fontSize: 30, color: 'white'}}>{project.name}</CardTitle>
-                <CardImg top src={project.image} alt="Card image cap" 
+                {/* <CardImg top src={project.image} alt="Card image cap" 
                     style={{width: '100%',
                     height: 300,
-                    objectFit: 'contain'}} />
+                    objectFit: 'contain'}} /> */}
                     <div style={{marginTop: 20, marginBottom: 20}}>{this.displayIcons(project.tech)}</div>
                     <Button style={{backgroundColor: "#E23C61"}}onClick={()=>this.handleTechClick(project)}>more info</Button>
                 {/* <CardText>{project.description}</CardText> */}
-                <a href={project.deployedURL}><Button style={{marginLeft:5, marginRight:5, backgroundColor: "#2A6771"}}>deployed</Button></a>
+                <a href={project.deployedURL} target="_blank" rel="noopener noreferrer"><Button style={{marginLeft:5, marginRight:5, backgroundColor: "#2A6771"}}>deployed</Button></a>
                 {project.codebase ? 
-                    <a href={project.codebase}><Button style={{backgroundColor: "#ED6F2E"}}>github</Button></a> : null
+                    <a href={project.codebase} target="_blank" rel="noopener noreferrer"><Button style={{backgroundColor: "#ED6F2E"}}>github</Button></a> : null
                 }
                 </CardBody>
             </Card>
