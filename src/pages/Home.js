@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Jumbo from '../components/Jumbotron';
 import MyNav from '../components/Nav';
 import {Jumbotron} from 'reactstrap'
-import MyBackgroundImage from '../images/sunglasses.jpg'
+import MyBackgroundImage from '../images/mountains.jpg'
 
 import { DiCss3, 
     DiHtml5, 
@@ -57,7 +57,7 @@ export default class Home extends Component {
                 <Jumbotron className="footer">
                     <h3>Portfolio created with <DiReact style={{color:"#80D8F7", fontSize: 35}}/></h3>
                     <p>
-                        Photo by Alex Holyoake on Unsplash<br/>
+                        Photo by Tom Gainor on Unsplash<br/>
                         Copyright © 2019 Karina Mills
                     </p>
                 </Jumbotron>

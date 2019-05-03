@@ -76,7 +76,7 @@ class Images extends Component {
             <CardDeck>
                 {data.map(project=>(
                     
-                    <Card style={{minWidth:300, marginTop:30}} className="image-card">
+                    <Card style={{minWidth:500, marginTop:30}} className="image-card">
                 {/* <Card style={{minWidth:300, marginTop:30, background: 'radial-gradient(circle, rgb(255, 255, 255, 0.4) 0%, rgb(0, 0, 255, 0.4) 100%)', borderColor: "#71F6DB", borderWidth: 5}}> */}
 
                 <CardBody>
@@ -85,10 +85,10 @@ class Images extends Component {
                     style={{width: '100%',
                     height: 300,
                     objectFit: 'contain'}} /> */}
+                    <CardText style={{color: "white", fontSize: 20}}>{project.description}</CardText>
                     <div style={{marginTop: 20, marginBottom: 20}}>{this.displayIcons(project.tech)}</div>
                     <Button style={{backgroundColor: "#E23C61"}}onClick={()=>this.handleTechClick(project)}>more info</Button>
-                {/* <CardText>{project.description}</CardText> */}
-                <a href={project.deployedURL} target="_blank" rel="noopener noreferrer"><Button style={{marginLeft:5, marginRight:5, backgroundColor: "#2A6771"}}>deployed</Button></a>
+                <a href={project.deployedURL} target="_blank" rel="noopener noreferrer"><Button style={{marginLeft:5, marginRight:5, backgroundColor: "#2A6771"}}>see project</Button></a>
                 {project.codebase ? 
                     <a href={project.codebase} target="_blank" rel="noopener noreferrer"><Button style={{backgroundColor: "#ED6F2E"}}>github</Button></a> : null
                 }

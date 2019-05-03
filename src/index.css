@@ -35,7 +35,7 @@ code {
   color: white;
 }
 .image-card {
-  background: linear-gradient(rgb(0,0,0, 0.6), rgb(51,120,127, 0.6));
+  background: linear-gradient(rgb(0,0,0, 0.5), rgb(51,120,127, 0.5));
 }
 .image-card:hover {
   background: linear-gradient(rgb(0,0,0, 0.6), rgba(209,75,99, 0.9));

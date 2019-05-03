@@ -27,13 +27,13 @@
         "codebase": null
     },
     {
-        "id": 1,
-        "name": "Memory Game",
-        "description": "You must have a good memory to win this 'The Office' themed Memory Game! This app demonstrates basic logic and state management using React.",
-        "tech": ["react", "javascript", "html", "css"],
-        "image": "https://media.giphy.com/media/7lC3lBaeK0Jhe/giphy.gif",
-        "deployedURL": "https://ksmills88.github.io/MemoryGame/",
-        "codebase": "https://github.com/ksmills88/MemoryGame"
+        "id": 4,
+        "name": "Stripe Integration",
+        "description": "This is a Demo application for a Stripe integration working with React, Express, and Node",
+        "tech": ["react", "express", "node", "stripe"],
+        "image": null,
+        "deployedURL": "https://drive.google.com/file/d/13J26jJByxNYEc-eNpWcZbwmd3-UBGR1I/view",
+        "codebase": "https://github.com/ksmills88/Stripe"
     },
     {
         "id": 2,

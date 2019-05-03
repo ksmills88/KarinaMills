@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Jumbotron, Container, Col, Row } from 'reactstrap';
 import MyBackgroundImage from '../images/pattern.jpg';
-
+import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io"
+import projects from './../projects.json'
 import { DiCss3, 
     DiHtml5, 
     DiReact, 
@@ -16,11 +17,28 @@ import { DiCss3,
 
 
 export default class Jumbo extends Component {
+    constructor(props) {
+        super(props);
+    
+        this.state = {
+          tech: []
+        };
+      }
+      tech = [
+            { 
+                name: "javascript",
+                element: <DiJavascript />
+            }, 
+            {
+                name: "node",
+                element: <DiNodejsSmall />
+            }, 
+      ]
     styles={
         jt: {
             // backgroundColor: 'rgb(114,247,217,0.4)',
             // background: 'radial-gradient(circle, rgb(0, 0, 0, 0.7) 0%, rgb(226,60,97, 0.5) 100%)',
-            background: 'linear-gradient(rgb(51,120,127, 0.6), rgb(0,0,0, 0.8))',
+            background: 'linear-gradient(rgb(49,50,92, 0.5), rgb(0,0,0, 0.5))',
             color: 'white'
             // backgroundColor: 'white', 
             // opacity: .5
@@ -53,12 +71,17 @@ export default class Jumbo extends Component {
         }
     }
     render() {
+        console.log(this.tech)
         return (
             <div>
             <Jumbotron fluid style={this.styles.jt}>
               <Container fluid >
               <h1 style={{fontSize: 60}} className="hover-uppercase">karina starling mills</h1>
               <h3>&lt; WebDeveloper /&gt;</h3>
+              {/* <div>{this.tech[0].element}</div> */}
+              <a href="https://www.linkedin.com/in/karinamills/"><IoLogoLinkedin style={{fontSize: 50, color: "white"}}/></a>
+              <a href="https://github.com/ksmills88"><IoLogoGithub style={{fontSize: 50, color: "white"}}/></a>
+
               {/* <h3 className="lead" style={this.styles.boxAround}>I build cool things in tech. </h3> */}
               <Row>
                 {/* <Col style={this.styles.colBox}>
