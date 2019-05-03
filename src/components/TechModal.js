@@ -20,7 +20,7 @@ console.log(techArray)
           <ModalHeader toggle={this.props.toggle}>{project.name}</ModalHeader>
           {project.image ? <CardImg top src={project.image} alt="Card image cap" 
                     style={{width: '100%',
-                    height: 300,
+                    maxHeight: 500,
                     objectFit: 'contain'}} /> :null}
           <ModalBody>
               {project.description}
