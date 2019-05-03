@@ -1,14 +1,5 @@
 [ 
     {
-        "id": 1,
-        "name": "Memory Game",
-        "description": "You must have a good memory to win this 'The Office' themed Memory Game! This app demonstrates basic logic and state management using React.",
-        "tech": ["react", "javascript", "html", "css"],
-        "image": "https://media.giphy.com/media/7lC3lBaeK0Jhe/giphy.gif",
-        "deployedURL": "https://ksmills88.github.io/MemoryGame/",
-        "codebase": "https://github.com/ksmills88/MemoryGame"
-    },
-    {
         "id": 2,
         "name": "OpenSky LAANC",
         "description": "This platform, built for Aeronyde Corporation, allows commercial drone/UAV users to safely integrate into airspace, and is approved by the FAA. My role: Front End Developer",
@@ -25,6 +16,15 @@
         "image": "https://media.giphy.com/media/MYyaxUaLlYwEKMhEzM/giphy.gif",
         "deployedURL": "https://play.google.com/store/apps/details?id=com.osi.hospice&hl=en_US",
         "codebase": null
+    },
+    {
+        "id": 1,
+        "name": "Memory Game",
+        "description": "You must have a good memory to win this 'The Office' themed Memory Game! This app demonstrates basic logic and state management using React.",
+        "tech": ["react", "javascript", "html", "css"],
+        "image": "https://media.giphy.com/media/7lC3lBaeK0Jhe/giphy.gif",
+        "deployedURL": "https://ksmills88.github.io/MemoryGame/",
+        "codebase": "https://github.com/ksmills88/MemoryGame"
     },
     {
         "id": 4,
@@ -36,39 +36,39 @@
         "codebase": "https://github.com/ksmills88/Stripe"
     },
     {
-        "id": 2,
-        "name": "OpenSky LAANC",
-        "description": "This platform, built for Aeronyde Corporation, allows commercial drone/UAV users to safely integrate into airspace, and is approved by the FAA. My role: Front End Developer",
-        "tech": ["react", "node", "express", "mysql"],
-        "image": "https://karinamills194387674.files.wordpress.com/2019/04/drone.gif",
-        "deployedURL": "https://aeronyde.com/opensky-laanc/",
-        "codebase": null
+        "id": 5,
+        "name": "Star Wars Game",
+        "description": "This is one of my very first applications written using HTML, Javascript and jQuery! The goal of this game is to defeat all of your chosen character's enemies one by one before they defeat you.",
+        "tech": ["html", "jquery", "javascript"],
+        "image": null,
+        "deployedURL": "https://ksmills88.github.io/StarWarsGame/",
+        "codebase": "https://github.com/ksmills88/StarWarsGame"
     },
     {
-        "id": 3,
-        "name": "HOSI Mobile App",
-        "description": "I rebuilt and redesigned the Hospice of Southern Illinois mobile application using React Native with Expo. The app is currently deployed on Google Play and the Apple App Store.",
-        "tech": ["reactnative", "expo", "android", "appstore", "javascript", "css"],
-        "image": "https://media.giphy.com/media/MYyaxUaLlYwEKMhEzM/giphy.gif",
-        "deployedURL": "https://play.google.com/store/apps/details?id=com.osi.hospice&hl=en_US",
-        "codebase": null
+        "id": 6,
+        "name": "Train Times",
+        "description": "Train Times is a simple Firebase database integration application that allows users to input their favorite trains to keep track of arrival times.",
+        "tech": ["firebase", "javascript", "html", "css", "moment.js"],
+        "image": null,
+        "deployedURL": "https://ksmills88.github.io/Train-Time/",
+        "codebase": "https://github.com/ksmills88/Train-Time"
     },
     {
-        "id": 2,
-        "name": "OpenSky LAANC",
-        "description": "This platform, built for Aeronyde Corporation, allows commercial drone/UAV users to safely integrate into airspace, and is approved by the FAA. My role: Front End Developer",
-        "tech": ["react", "node", "express", "mysql"],
-        "image": "https://karinamills194387674.files.wordpress.com/2019/04/drone.gif",
-        "deployedURL": "https://aeronyde.com/opensky-laanc/",
-        "codebase": null
+        "id": 7,
+        "name": "Friends API",
+        "description": "This simple friends API builder takes in form data like a survey, then compares the user's data against the current friends API list to find the best 'friend' match.",
+        "tech": ["node", "express"],
+        "image": null,
+        "deployedURL": "https://murmuring-headland-70129.herokuapp.com/",
+        "codebase": "https://github.com/ksmills88/Train-Time"
     },
     {
-        "id": 3,
-        "name": "HOSI Mobile App",
-        "description": "I rebuilt and redesigned the Hospice of Southern Illinois mobile application using React Native with Expo. The app is currently deployed on Google Play and the Apple App Store.",
-        "tech": ["reactnative", "expo", "android", "appstore", "javascript", "css"],
-        "image": "https://media.giphy.com/media/MYyaxUaLlYwEKMhEzM/giphy.gif",
-        "deployedURL": "https://play.google.com/store/apps/details?id=com.osi.hospice&hl=en_US",
-        "codebase": null
+        "id": 8,
+        "name": "Hangman",
+        "description": "This is a 'Disney' themed Hangman Game. Just like the traditional game, you will guess the letters of the word by typing the letter on your keyboard. The hint is...Disney!",
+        "tech": ["html", "css", "javascript"],
+        "image": null,
+        "deployedURL": "https://ksmills88.github.io/Hangman-Game/",
+        "codebase": "https://github.com/ksmills88/Hangman-Game"
     }
 ]
