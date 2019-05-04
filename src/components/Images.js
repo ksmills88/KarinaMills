@@ -76,7 +76,7 @@ class Images extends Component {
             <CardDeck>
                 {data.map(project=>(
                     
-                    <Card style={{minWidth:500, marginTop:30}} className="image-card">
+                    <Card style={{minWidth:300, marginTop:30}} className="image-card">
                 {/* <Card style={{minWidth:300, marginTop:30, background: 'radial-gradient(circle, rgb(255, 255, 255, 0.4) 0%, rgb(0, 0, 255, 0.4) 100%)', borderColor: "#71F6DB", borderWidth: 5}}> */}
 
                 <CardBody>
