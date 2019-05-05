@@ -30,10 +30,10 @@ code {
 .tagline-container {
   width: 150px;
 }
-.hover-uppercase:hover {
+/* .hover-uppercase:hover {
   text-transform: uppercase;
   color: white;
-}
+} */
 .image-card {
   background: linear-gradient(rgb(0,0,0, 0.5), rgb(51,120,127, 0.5));
 }
